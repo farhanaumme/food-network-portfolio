@@ -11,7 +11,7 @@ h2{
     font-size: 50px; 
     font-weight: 700px;                   
 }
-section{
+.flexible-container{
                 display: flex; 
                 margin-bottom: 100px;
                  
@@ -46,4 +46,10 @@ p{
 
      
 }
+.recipe-area{
+                        text-align: center;
+}
+
+
+
 
