@@ -11,6 +11,10 @@ h2{
     font-size: 50px; 
     font-weight: 700px;                   
 }
+h3{
+        font-size:30px ;
+        font-weight: 900;
+}
 .flexible-container{
                 display: flex; 
                 margin-bottom: 100px;
@@ -22,7 +26,8 @@ h2{
 }
 .half-width{
              width: 50%;
-             padding-left: 5%         
+             padding-left: 5%;
+                
 }
 .half-width img{
                         width: 80%;
@@ -49,7 +54,39 @@ p{
 .recipe-area{
                         text-align: center;
 }
+.recipe-item{
+        margin-left: 2%;
+        margin-right: 50px;
+        padding-left: 20px;
+        padding-right:20px;
+        padding-top: 20px;
+        padding-block-end:30px;
+        border-radius: 20px;
+        box-shadow:10px 10px 40px gray;
+        
+}
+.recipe-item img{
+        width: 100%;
+}
+footer{
+          
+        text-align: center;
+        height: 250px;/* background-image: url(images/shapes/7.png); */
+        background:  black;
 
+        
+        
+}
+footer h4{
+        font-size: 30px;
+        color: rgb(157, 152, 152);
+        padding: 35px 0px 45px;
+}
+footer h4 span{color: orange;}
+footer p{
+        font-size: 16px;
+        color: white;
+}
 
 
 
